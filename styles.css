@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #222222;
+  position: relative;
+  text-align: center;
+  padding: 0; /* Remove padding so image fills the entire section */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between; /* Ensures flex-start for logo and flex-end for the button */
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex; /* In case additional content is inside the logo */
+  align-items: center;
+}
+
+.talk-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.hero-content {
+  position: relative;
+  height: 800px; /* Set the height for the background area */
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  text-align: center;
+  background: url('/images/gallery.jpeg') no-repeat center center; /* Set the image as background */
+  background-size: cover; /* Ensure the image covers the whole area */
+  color: #fff; /* White text for visibility */
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+}
+
+
+.hero-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+/* Services Section */
+.services {
+  background-color: #fef3c7;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.service-item {
+  margin: 10px 0;
+}
+
+.service-item img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #fde68a;
+  padding: 20px;
+}
+
+.testimonial-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for testimonials */
+  gap: 15px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fde68a;
+  padding: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input, .contact textarea, .contact button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #9e77ed;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer .social-icons {
+  margin-bottom: 10px;
+}
