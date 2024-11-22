@@ -13,7 +13,9 @@ h1, h2 {
 
 /* Hero Section */
 .hero {
-  background-color: #222222;
+  /* background-color: #222222; */
+  background-color: #000000;
+
   position: relative;
   text-align: center;
   padding: 0; /* Remove padding so image fills the entire section */
@@ -69,10 +71,15 @@ h1, h2 {
 
 /* Services Section */
 .services {
-  background-color: #fef3c7;
+  background-color: #000000;
   padding: 20px;
   text-align: center;
   color: #000000;
+}
+
+.services p {
+  font-size: large;
+  color: white;
 }
 
 .service-item {
