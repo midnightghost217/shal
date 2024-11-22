@@ -13,8 +13,7 @@ h1, h2 {
 
 /* Hero Section */
 .hero {
-  /* background-color: #222222; */
-  background-color: #000000;
+background-color: #222222;
   position: relative;
   text-align: center;
   padding: 0; /* Remove padding so image fills the entire section */
@@ -55,7 +54,7 @@ h1, h2 {
   background: url('/images/gallery.jpeg') no-repeat center center; /* Set the image as background */
   background-size: cover; /* Ensure the image covers the whole area */
   color: #fff; /* White text for visibility */
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
 }
@@ -69,7 +68,7 @@ h1, h2 {
 
 /* Services Section */
 .services {
-  background-color: #000000;
+  background-color: #222222;
   padding: 20px;
   text-align: center;
   color: #000000;
@@ -94,7 +93,8 @@ h1, h2 {
 
 /* Testimonials Section */
 .testimonials {
-  background-color: #fde68a;
+  background-color: #222222;
+  color:   #ffffff;
   padding: 20px;
 }
 
