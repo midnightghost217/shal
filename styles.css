@@ -132,7 +132,7 @@ h1, h2 {
 }
 
 .gallery-item img {
-  width: 75%;
+  width: 90%;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -156,7 +156,7 @@ h1, h2 {
   border: 1px solid  #000000;;
   border-radius: 5px;
 }
-
+ 
 .contact button {
   background-color:  #ffd000;
   color: #000000;
@@ -166,7 +166,7 @@ h1, h2 {
 }
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -175,4 +175,23 @@ h1, h2 {
 
 .footer .social-icons {
   margin-bottom: 10px;
+} */
+
+footer {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  clear: both;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer .social-links img {
+  width: 30px;
+  height: 30px;
 }
