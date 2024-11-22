@@ -13,7 +13,7 @@ h1, h2 {
 
 /* Hero Section */
 .hero {
-  background-color:  #080808;
+  background-color: #0c0c0c;
   
   position: relative;
   text-align: center;
@@ -73,10 +73,10 @@ h1, h2 {
 
 /* Services Section */
 .services {
-  background-color:  #080808;
+  background-color: #0c0c0c;
   padding: 20px;
   text-align: center;
-  color: #000000;
+  color: white;
 }
 
 .services p {
@@ -98,8 +98,9 @@ h1, h2 {
 
 /* Testimonials Section */
 .testimonials {
-  background-color: #222222;
-  color:   #ffffff;
+  background-color: #0c0c0c;
+  color: #ffffff;
+
   padding: 20px;
 }
 
@@ -110,7 +111,6 @@ h1, h2 {
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 10px;
-  background-color: #fff;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -126,19 +126,22 @@ h1, h2 {
 
 /* Gallery Section */
 .gallery {
-  background-color: #f9f9f9;
+  background-color: #0c0c0c;
+  color: white;
   padding: 20px;
 }
 
 .gallery-item img {
-  width: 100%;
+  width: 75%;
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 /* Contact Section */
 .contact {
-  background-color: #fde68a;
+  background-color: #0c0c0c;
+  color: white;
   padding: 20px;
 }
 
