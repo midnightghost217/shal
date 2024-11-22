@@ -153,13 +153,15 @@ h1, h2 {
 
 .contact input, .contact textarea, .contact button {
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid  #000000;;
   border-radius: 5px;
 }
 
 .contact button {
-  background-color: #9e77ed;
-  color: #fff;
+  background-color:  #ffd000;
+  color: #000000;
+  font-size: large;
+  font-weight:600;
   cursor: pointer;
 }
 
