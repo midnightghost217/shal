@@ -15,7 +15,6 @@ h1, h2 {
 .hero {
   /* background-color: #222222; */
   background-color: #000000;
-
   position: relative;
   text-align: center;
   padding: 0; /* Remove padding so image fills the entire section */
@@ -38,7 +37,6 @@ h1, h2 {
   background-color: #ffffff;
   color: #000000;
   padding: 10px 20px;
-  margin-right: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
